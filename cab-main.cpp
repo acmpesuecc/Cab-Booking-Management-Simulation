@@ -23,7 +23,7 @@ class car  //class that contains the driver details
 	  {
 	  avail='n';
 	  }
-	  char getavail()
+	  char getavail() //gets availability of driver
 	  {
 	  return avail;
 	  }
@@ -41,7 +41,7 @@ class car  //class that contains the driver details
 	  { avail='y';
 
 	  }
-	  car (car &z)
+	  car (car &z) //to copy cars
 	  {    strcpy(pno,z.pno);
 	       id=z.id;
 	       strcpy(name,z.name);
@@ -60,6 +60,7 @@ class car  //class that contains the driver details
 	  {
 	   return cost;
 	  }
+	//above functions used for abstraction
 	   void out1()
 	  {
 	   cout<<name<<"    "<<type<<"      "<<cost<<"   "<<endl;
@@ -77,7 +78,7 @@ class car  //class that contains the driver details
 	   }
 
 };
-void car::in()
+void car::in() //accepting car info
 {          car a;
 	   fid:
 	   cout<<"Enter driver id,name,type,cost,phone number : "<<endl;
@@ -100,7 +101,7 @@ void car::in()
 	   cin>>name>>type>>cost>>pno;
   }
 
-void mavail()
+void mavail() //used by admin to change driver avail
 {int id;
  cout<<"Enter the driver id whose trip has ended : ";
  cin>>id;
@@ -172,7 +173,7 @@ void bookd()
 fin.close();
 }
 
-void editd()
+void editd() //used to edit driver info
 {int id;
 int op;
 char pno[11];

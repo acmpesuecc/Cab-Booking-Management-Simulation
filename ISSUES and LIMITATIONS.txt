@@ -1,6 +1,7 @@
+PS: Note that all the DAT files need to be in the same folder as the main file.
+Static password for any username under admin:p&a
 
 Issues/Limitations:
-
 1.Once a vehicle is  booked, it cannot be cancelled.
 2.Can only book from the given selection of source and destination places.
 3.Password for admin is very vulnarable and needs to abstarcted.

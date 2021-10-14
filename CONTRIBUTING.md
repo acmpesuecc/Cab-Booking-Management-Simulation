@@ -4,9 +4,13 @@ Hello and welcome! We are so glad that you are interested in contributing to Cab
 
 
 We only have a couple of rules and we hope you enjoy the process :)
+
 ## Contributing Rules
 
-1.
+1. Do not delete any files, modify the pre-existing ones
+2. Data files are provided along with the main cpp file
+3. Use of turbo c++ is recommended.
+4. PR submissions must have the issue number they address.
 
 ## Contributing Process
 

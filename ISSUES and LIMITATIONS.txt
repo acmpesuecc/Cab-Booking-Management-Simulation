@@ -4,5 +4,5 @@ Static password for any username under admin:p&a
 Issues/Limitations:
 1.Once a vehicle is  booked, it cannot be cancelled.
 2.Can only book from the given selection of source and destination places.
-3.Password for admin is very vulnarable and needs to abstarcted.
-4.New Admin staff registartion with new ids and passwords.
+3.Password for admin is very vulnarable and needs to abstracted.
+4.New Admin staff registartion with new ids and passwords to be implemented.

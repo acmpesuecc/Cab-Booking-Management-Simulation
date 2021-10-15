@@ -292,7 +292,7 @@ class sd //contains source and destination
 	  return km;
 	 }
 
-}
+};
 void sd::ins()
 {
 sd s;

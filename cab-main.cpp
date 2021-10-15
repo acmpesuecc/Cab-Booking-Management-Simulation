@@ -564,7 +564,14 @@ rename("tempd.dat","carz.dat");
  if(opt=='y')
  {
   bill bot(b,obj,price,ti);
-   cout<<"Booking has been confirmed \nPress any key to view bill"<<endl;
+  char decision;
+   cout<<"Booking has been confirmed \nPress any key to view bill\nPress c to cancel booking"<<endl;
+   cin>>decision;
+   if(decision=='c'){
+     clrscr();
+     book();
+   }
+   else
    getch();
   clrscr();
   bot.disp();getch();

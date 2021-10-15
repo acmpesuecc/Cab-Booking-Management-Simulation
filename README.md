@@ -17,6 +17,8 @@ https://developerinsider.co/download-turbo-c-for-windows-7-8-8-1-and-windows-10-
 We recommend that you go through the CONTRIBUTING.md file.
 After following the steps in the same, run the program on turbo c++ preferably.
 Modify the code and upload the same in your PR.
+PS: Note that all the DAT files need to be in the same folder as the main file(cpp).
+Static password for any username under admin:p&a
 
 ### Is the project beginner friendly?
 YES 

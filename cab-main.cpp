@@ -567,7 +567,7 @@ rename("tempd.dat","carz.dat");
   char decision;
    cout<<"Booking has been confirmed \nPress any key to view bill\nPress c to cancel booking"<<endl;
    cin>>decision;
-   if(decision=='c'){
+   if(decision=='c') {
      clrscr();
      book();
    }

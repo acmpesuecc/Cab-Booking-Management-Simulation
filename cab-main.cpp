@@ -294,7 +294,7 @@ class sd //contains source and destination
 
 };
 void sd::ins()
-{int sno;
+{
 sd s;
  fno:
 cout<<"enter the sno,source,destination and distances"<<endl;

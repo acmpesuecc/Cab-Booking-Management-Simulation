@@ -24,3 +24,12 @@ YES
 ## Maintainers :
 Github id: aarav-babu          Email id: aaravbabu2002@gmail.com
 Github id: aditi-singh2        Email id: aditisingh02430@gmail.com
+
+## BOOST GUIDELINES:
+Generating bill issue #7  : Bounty boost +10, Pull request cap =3
+Serial number bug issue #6 :  Bounty boost +10, Pull request cap =3
+Cancelling rides issue #5 : Bounty +15, Pull request cap =5
+Validating entries issue #4 :  Bounty boost +10, Pull request cap =5
+Static locations issue #3 : Bounty +15, Pull request cap =5
+Vulnerable password issue #2 : Bounty boost +15, Pull request cap =4
+Admin logins issue #1 : Bounty boost +20, Pull request cap=5

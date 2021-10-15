@@ -11,6 +11,11 @@ Language: C++
 Tools required: Turbo C++
 
 
+## Getting Started:
+
+We recommend that you go through the CONTRIBUTING.md file.
+After following the steps in the same, run the program on turbo c++ preferably.
+Modify the code and upload the same in your PR.
 
 ### Is the project beginner friendly?
 YES 

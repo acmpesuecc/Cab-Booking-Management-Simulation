@@ -292,9 +292,9 @@ class sd //contains source and destination
 	  return km;
 	 }
 
-};
+}
 void sd::ins()
-{int sno;
+{
 sd s;
  fno:
 cout<<"enter the sno,source,destination and distances"<<endl;

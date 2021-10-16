@@ -98,7 +98,46 @@ void car::in() //accepting car info
 		  goto fid;
 		  }
 		}fin.close();
-	   cin>>name>>type>>cost>>pno;
+	   cin>>name>>type;
+	   /*int fl=0;
+	   while (fl==0)
+	   {
+		if (strcmp(type, "Sedan")!=0 || strcmp(type, "SUV")!=0 || strcmp(type, "Bus"))
+		{
+			cout<<"Incorrect car type"<<endl;
+			cout<<"Enter type: ";
+			cin>>type;
+		}
+		else fl=1;
+	   } */
+	   cin>>cost>>pno;
+
+	   check:
+	   int flag=0;
+	   while (flag==0)
+	   {
+		if (strlen(pno)!=10 || !(pno[0]>='6' && pno[0]<='9'))
+		{
+			cout<<"Invalid phone no"<<endl;
+			cout<<"Enter valid phone no: ";
+			cin>>pno;
+		}
+		else flag=1;
+	   }
+
+	   fin.open("CARZ.dat", ios::binary);
+	   while(!fin.eof())
+	   {
+		fin.read((char*)&a, sizeof(a));
+		if (pno==a.pno)
+		{
+			cout<<"Phone no can't be repeated"<<endl;
+			cout<<"Enter phone no: ";
+			cin>>pno;
+			goto check;
+		}
+	   }
+	   fin.close();
   }
 
 void mavail() //used by admin to change driver avail

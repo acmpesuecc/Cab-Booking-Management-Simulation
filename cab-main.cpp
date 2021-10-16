@@ -8,6 +8,7 @@
 #include<iomanip.h>
 
 
+
 class car  //class that contains the driver details
 {
   int id;
@@ -438,9 +439,9 @@ class bill
    cout<<" Price     : "<<price<<endl;
    tax=0.18*price;
    tprice=tax+price;
-   cout<<"+Tax       : "<<setprecision(2)<<tax<<endl;
+   cout<<"+Tax       : "<<tax<<endl;
    cout<<"           _________"<<endl;
-   cout<<" Net Price : "<<setprecision(2)<<tprice<<endl;
+   cout<<" Net Price : "<<tprice<<endl;
     cout<<"_______________________________________________________________"<<endl ;
   }
 };
